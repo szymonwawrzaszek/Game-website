@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8"/>
+		<title>retrogranie</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+		<link rel="stylesheet" href="style.css" type="text/css" />
+		<link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+		<link rel="stylesheet" href="css/fontello.css" type="text/css" />
+		
+		<script src="jquery-3.2.0.min.js"></script>
+		<script>
+
+	$(document).ready(function() {
+	var NavY = $('.nawigacja').offset().top;
+	 
+	var stickyNav = function(){
+	var ScrollY = $(window).scrollTop();
+		  
+	if (ScrollY > NavY) { 
+		$('.nawigacja').addClass('sticky');
+	} else {
+		$('.nawigacja').removeClass('sticky'); 
+	}
+	};
+	 
+	stickyNav();
+	 
+	$(window).scroll(function() {
+		stickyNav();
+	});
+	});
+	
+</script>
+
+
+
+	</head>
+
+	<body>
+	
+	<div id="strona">
+		<div id="naglowek">
+			<div id="logo">
+				<img src="pad.png" style="float:left;" />
+				<span style="color: #D5032B;">retro</span>granie.com
+				<div style="clear:both;"></div>
+			</div>
+		</div>
+		<div class="nawigacja">
+		<ol>
+			<li><a href="#">Strona główna</a></li>
+			<li><a href="#">Klasyki NES</a>
+				<ul>
+					<li><a href="#">Contra</a></li>
+					<li><a href="#">Mario Bros</a></li>
+					<li><a href="#">Duck Tales</a></li>
+					<li><a href="#">Legend of Zelda</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Gry wyścigowe</a>
+				<ul>
+					<li><a href="#">Death Race</a></li>
+					<li><a href="#">Nascar</a></li>
+					<li><a href="#">ArtroFang</a></li>
+					<li><a href="#">Bigfoot</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Bijatyki</a>
+				<ul>
+					<li><a href="#">Mortal Combat</a></li>
+					<li><a href="#">Battletoads</a></li>
+					<li><a href="#">Mega Man</a></li>
+					<li><a href="#">Turtles T</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Gry sportowe</a>
+				<ul>
+					<li><a href="#">Goal 3</a></li>
+					<li><a href="#">Excitebike</a></li>
+					<li><a href="#">Kung-fu Heroes</a></li>
+					<li><a href="#">Tennis</a></li>
+				</ul>
+			</li>
+			<li><a href="#">O autorach</a></li>
+			<div style="clear:both;"></div>
+		</ol>
+		</div>
+	
+		<div id="content">
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel ex felis. Integer ut pharetra lectus. Phasellus laoreet mattis orci, quis egestas felis vulputate vel. Vestibulum tempus purus ac odio tincidunt, sit amet vulputate felis auctor. Proin facilisis at mauris id rutrum. Fusce porttitor lacus a augue euismod, vel hendrerit elit lobortis. Fusce at sem non lectus auctor pretium. Ut sit amet lorem eget purus tincidunt eleifend nec id risus.
+		<br/><br/>
+		In sagittis nibh velit, sit amet interdum magna finibus id. Maecenas aliquet neque non efficitur cursus. Donec ac tellus id mauris bibendum gravida vel non diam. Vestibulum porta dignissim tempor. Suspendisse facilisis dolor a auctor gravida. Donec eu condimentum mi. Mauris porttitor tincidunt velit quis semper. Cras odio erat, tempor id ante quis, accumsan ultrices sapien. Fusce quis mauris urna. Cras a purus mauris. Cras enim enim, sollicitudin vitae volutpat ut, semper a metus. Maecenas vitae risus luctus leo rutrum viverra. In et tincidunt felis, eu mollis velit. Pellentesque finibus, magna elementum elementum lacinia, augue lorem commodo felis, et finibus nisl ligula eget est. Morbi varius lacus at elit fermentum, ac dictum magna finibus.
+		<br/><br/>
+		Etiam feugiat ultrices metus id dapibus. Vivamus risus velit, viverra bibendum diam sit amet, viverra ultrices elit. Suspendisse augue dui, feugiat et lorem quis, ultricies dapibus erat. Duis purus lacus, porta non sem ac, iaculis fermentum justo. Donec scelerisque venenatis ligula, non varius orci convallis non. Pellentesque eu purus sed magna placerat luctus. Nulla iaculis gravida justo et efficitur. Donec tempor eu ipsum nec gravida. Donec tempor, mi sit amet aliquet condimentum, nisl enim tincidunt lacus, at vehicula sapien nisi eget est. Aenean at risus nec urna dapibus auctor. In sollicitudin id purus vel sagittis. Curabitur sit amet elementum ligula. Ut fringilla, tellus ac vehicula suscipit, ante sem porttitor metus, sed consequat ex quam sit amet nunc. Aliquam ac ex eu elit elementum commodo. Aenean auctor tincidunt ultrices. Donec vitae ligula posuere, rhoncus est eget, condimentum mauris.
+		<br/><br/>
+		Vivamus iaculis sed elit faucibus auctor. Fusce ultrices, odio ac euismod accumsan, libero ipsum dapibus odio, nec mattis lacus diam in ante. Donec eget quam faucibus est dictum dignissim eget ut ligula. Vestibulum eu augue sed elit blandit elementum. Nam ut tortor sapien. Ut fermentum lacus sit amet tempus viverra. Integer imperdiet enim eu vestibulum ultricies. Nunc in consequat diam. Aenean blandit mattis mi, sed suscipit ante consectetur sed. Vestibulum dignissim venenatis elementum. Etiam ac porta lorem. Vestibulum lacinia, magna a sodales molestie, velit purus gravida urna, at feugiat lorem ex in tortor.
+		</div>	
+		<div id= "media">
+			<div id="kafelki">
+				<div id="fb">
+				<a class="linki_media" href="https://www.facebook.com/" target="_blank"> <i class="icon-facebook-squared"></i> </a>
+				</div>
+				<div id="yt">
+				<a class="linki_media" href="https://www.youtube.com/?gl=PL&hl=pl" target="_blank"> <i class="icon-youtube"></i> </a>
+				</div>
+				<div id="tw">
+				<a class="linki_media" href="https://twitter.com/" target="_blank"> <i class="icon-twitter"></i> </a>
+				</div>
+				<div id="gp">
+				<a class="linki_media" href="https://plus.google.com/u/0/" target="_blank"> <i class="icon-gplus"></i> </a>
+				</div>
+				<div style="clear: both;"></div>
+			</div>
+		<div>
+		<div id="footer">
+			retrogranie.com &copy 2017 Thank you Mario but our princess is in another castle ;-)
+		</div>
+			
+	</div>
+	
+	
+	
+	</body>
+	
+<html>	
+	

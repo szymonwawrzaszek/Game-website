@@ -1,0 +1,205 @@
+body
+{
+	background-color: #303030;
+	font-family: 'Audiowide', cursive;
+	font-size:20px;
+	color: white;
+	margin: 0;
+}
+
+#strona
+{
+	
+}	
+
+#naglowek
+{
+padding:40px 0px;	
+}
+
+#logo
+{
+	width:550px;
+	font-size:48px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.nawigacja
+{
+width:100%;
+text-align:center;
+background-color:#D5032B;
+height:50px;
+padding:5px 0px 5px 0px;
+}
+
+#content
+{
+padding-top:30px;
+padding-bottom: 20px;	
+width:1000px;
+margin-left:auto;
+margin-right:auto;
+text-align: justify;	
+}
+
+#media
+{
+width: 100%;	
+text-align:center;
+background-color: #292929;
+}	
+
+#kafelki
+{
+width: 1000px;
+margin-left:auto;
+margin-right:auto;
+font-size:120px;	
+	
+	
+}
+
+a.linki_media
+{
+	color:white;
+	text-decoration: none;
+	display: block;
+	width: 250px;
+	height: 155px;
+}
+
+#fb
+{
+	width: 250px;
+	height:155px;
+	float:left;
+}
+#fb:hover
+{
+background-color: #4668B3;	
+}
+
+#yt
+{
+	width: 250px;
+	height:155px;
+	float:left;
+}
+#yt:hover
+{
+background-color: #F20F0F;
+}
+
+#gp
+{
+	width: 250px;
+	height:155px;
+	float:left;
+}
+#gp:hover
+{
+background-color: #D95333;	
+}
+
+#tw
+{
+	width: 250px;
+	height:155px;
+	float:left;
+}
+#tw:hover
+{
+background-color: #3095d3;
+}
+
+#footer
+{
+	width: 100%;
+	text-align:center;
+	background-color: #292929;
+	padding:20px 0 20px 0;
+}
+
+.sticky
+{
+	width:100%;
+	position:sticky;
+	left:0;
+	top:0;
+	z-index:100;
+}
+
+ol
+{
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	line-height:170%;
+	font-size:18px;
+	display: inline-block;
+}
+
+ol a 
+{
+	color: white;
+	text-decoration: none;
+	display: block;
+}
+
+ol > li
+{
+	padding-top: 10px;
+	float: left;
+	width:170px;
+	height: 40px;
+	border-right: 1px dashed #751b1b;	
+}
+ol > li:first-child
+{
+		border-left: 1px dashed #751b1b;
+}
+
+ol > li:hover
+{
+	background-color: #cf6969;
+}
+
+ol > li:hover > a
+{
+	color: #451717;
+}
+ol > li:hover > ul
+{
+	display:block;
+}
+
+ol > li > ul
+{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	height:50px;
+	display:none;
+}
+
+ol > li > ul > li
+{
+position: relative;
+background-color: #cf6969;
+z-index:100;
+border-top:1px dashed #751b1b;
+}
+
+ol > li > ul > li:hover
+{
+
+background-color: #D5032B;
+
+}
+ol > li > ul > li:hover > a
+{
+color: #451717;	
+}
